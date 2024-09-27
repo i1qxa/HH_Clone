@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.effective.mobile.hh.clone"
+    namespace = "com.effective.mobile.hh.autorisation"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.effective.mobile.hh.clone"
+        applicationId = "com.effective.mobile.hh.autorisation"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,6 +45,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(project(":app"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

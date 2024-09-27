@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "HH Clone"
 include(":app")
- 
+include(":autorisation")
